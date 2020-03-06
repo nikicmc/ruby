@@ -6,7 +6,7 @@ class purhases
       pur = gets.chomp
       if pur == "stop"
         break 
-     end
+      end
      price = gets.chomp
      quantity = gets.chomp
      price = price.to_f
