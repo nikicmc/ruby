@@ -1,0 +1,24 @@
+class purhases
+  def shop
+    puts "Input your purchases"
+    hash = {}
+    price = {}
+    while true
+      pur = gets.chomp
+      if pur == "stop"
+        break 
+     end
+     price = gets.chomp
+     quantity = gets.chomp
+     price = price.to_f
+     quantity = quantity.to_i
+     
+     hash[pur] = {price => quantity}
+     price[pur]=price * quantity
+     s = s + price*quantity
+   end
+    puts hash
+    puts price
+    puts s
+  end
+end
