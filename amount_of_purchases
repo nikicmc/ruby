@@ -1,5 +1,4 @@
 class purhases
-  def shop
     puts "Input your purchases"
     hash = {}
     price = {}
